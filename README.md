@@ -11,7 +11,7 @@ mruby-eval("puts 'Hello, World!'");
 
 ## SETUP
 
-1. Build mruby as shared library using mattn's [mruby-sharedlib](https://github.com/mattn/mruby-sharedlib).
+1. Build mruby as shared library using mattn's [mruby-sharedlib](https://github.com/mattn/mruby-sharedlib); Add `conf.gem github: 'mattn/mruby-sharedlib` into `build_config.rb`.
 2. You'll find `mruby.dylib` (on Mac OS X) at `MRUBY_DIR/build/host/bin/mruby.dylib` and put it onto somewhere findable.
 
 ## AUTHOR
